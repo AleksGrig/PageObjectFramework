@@ -1,0 +1,5 @@
+INFO    2019-12-14 13:29:21,989 [main] com.automation.base.Page  - Config file loaded
+INFO    2019-12-14 13:29:22,001 [main] com.automation.base.Page  - OR file loaded
+INFO    2019-12-14 13:29:31,726 [main] com.automation.base.Page  - Firefox launched
+INFO    2019-12-14 13:29:34,512 [main] com.automation.base.Page  - Navigated to http://zoho.com
+INFO    2019-12-14 13:29:35,128 [main] com.automation.base.Page  - LOGINTEST

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object Model">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.automation.listeners.CustomListeners" />
+	</listeners>
+
+	<test thread-count="5" name="Login Test">
+		<classes>
+			<class name="com.automation.testcases.LoginTest" />
+		</classes>
+	</test> <!-- Test -->	
+	
+	<test thread-count="5" name="Calendar Test">
+		<classes>
+			<class name="com.automation.testcases.CalendarTest" />
+		</classes>
+	</test> <!-- Test -->	
+
+</suite> <!-- Suite -->

@@ -1,0 +1,95 @@
+INFO    2019-12-12 15:18:12,039 [main] com.aurelius.base.Page  - Config file loaded
+INFO    2019-12-12 15:18:12,044 [main] com.aurelius.base.Page  - OR file loaded
+DEBUG   2019-12-12 15:18:13,651 [main] org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: standard
+DEBUG   2019-12-12 15:18:13,664 [main] org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+DEBUG   2019-12-12 15:18:13,666 [main] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection request: [route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+DEBUG   2019-12-12 15:18:13,693 [main] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection leased: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+DEBUG   2019-12-12 15:18:13,695 [main] org.apache.http.impl.execchain.MainClientExec  - Opening connection {s}->https://raw.githubusercontent.com:443
+DEBUG   2019-12-12 15:18:13,708 [main] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connecting to raw.githubusercontent.com/151.101.36.133:443
+DEBUG   2019-12-12 15:18:13,708 [main] org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Connecting socket to raw.githubusercontent.com/151.101.36.133:443 with timeout 0
+DEBUG   2019-12-12 15:18:13,817 [main] org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Enabled protocols: [TLSv1.3, TLSv1.2, TLSv1.1, TLSv1]
+DEBUG   2019-12-12 15:18:13,817 [main] org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Enabled cipher suites:[TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA]
+DEBUG   2019-12-12 15:18:13,817 [main] org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Starting handshake
+DEBUG   2019-12-12 15:18:14,142 [main] org.apache.http.conn.ssl.SSLConnectionSocketFactory  - Secure session established
+DEBUG   2019-12-12 15:18:14,142 [main] org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  negotiated protocol: TLSv1.2
+DEBUG   2019-12-12 15:18:14,142 [main] org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+DEBUG   2019-12-12 15:18:14,146 [main] org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  peer principal: CN=www.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+DEBUG   2019-12-12 15:18:14,146 [main] org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]
+DEBUG   2019-12-12 15:18:14,147 [main] org.apache.http.conn.ssl.SSLConnectionSocketFactory  -  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+DEBUG   2019-12-12 15:18:14,148 [main] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator  - Connection established 192.168.1.44:62396<->151.101.36.133:443
+DEBUG   2019-12-12 15:18:14,148 [main] org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-0: set socket timeout to 30000
+DEBUG   2019-12-12 15:18:14,148 [main] org.apache.http.impl.execchain.MainClientExec  - Executing request GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+DEBUG   2019-12-12 15:18:14,149 [main] org.apache.http.impl.execchain.MainClientExec  - Target auth state: UNCHALLENGED
+DEBUG   2019-12-12 15:18:14,150 [main] org.apache.http.impl.execchain.MainClientExec  - Proxy auth state: UNCHALLENGED
+DEBUG   2019-12-12 15:18:14,153 [main] org.apache.http.headers  - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+DEBUG   2019-12-12 15:18:14,153 [main] org.apache.http.headers  - http-outgoing-0 >> User-Agent: Mozilla/5.0
+DEBUG   2019-12-12 15:18:14,153 [main] org.apache.http.headers  - http-outgoing-0 >> Connection: keep-alive
+DEBUG   2019-12-12 15:18:14,153 [main] org.apache.http.headers  - http-outgoing-0 >> Host: raw.githubusercontent.com
+DEBUG   2019-12-12 15:18:14,153 [main] org.apache.http.headers  - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+DEBUG   2019-12-12 15:18:14,153 [main] org.apache.http.wire  - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1[\r][\n]"
+DEBUG   2019-12-12 15:18:14,153 [main] org.apache.http.wire  - http-outgoing-0 >> "User-Agent: Mozilla/5.0[\r][\n]"
+DEBUG   2019-12-12 15:18:14,154 [main] org.apache.http.wire  - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+DEBUG   2019-12-12 15:18:14,154 [main] org.apache.http.wire  - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+DEBUG   2019-12-12 15:18:14,154 [main] org.apache.http.wire  - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+DEBUG   2019-12-12 15:18:14,154 [main] org.apache.http.wire  - http-outgoing-0 >> "[\r][\n]"
+DEBUG   2019-12-12 15:18:14,193 [main] org.apache.http.wire  - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+DEBUG   2019-12-12 15:18:14,193 [main] org.apache.http.wire  - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+DEBUG   2019-12-12 15:18:14,193 [main] org.apache.http.wire  - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+DEBUG   2019-12-12 15:18:14,193 [main] org.apache.http.wire  - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+DEBUG   2019-12-12 15:18:14,193 [main] org.apache.http.wire  - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+DEBUG   2019-12-12 15:18:14,193 [main] org.apache.http.wire  - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+DEBUG   2019-12-12 15:18:14,193 [main] org.apache.http.wire  - http-outgoing-0 << "ETag: W/"cc220cf00395b3223ce06a330d6d42326df4279d5315b997f161bb143dceadd1"[\r][\n]"
+DEBUG   2019-12-12 15:18:14,193 [main] org.apache.http.wire  - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+DEBUG   2019-12-12 15:18:14,194 [main] org.apache.http.wire  - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+DEBUG   2019-12-12 15:18:14,194 [main] org.apache.http.wire  - http-outgoing-0 << "X-Geo-Block-List:[\r][\n]"
+DEBUG   2019-12-12 15:18:14,194 [main] org.apache.http.wire  - http-outgoing-0 << "X-GitHub-Request-Id: 1844:3B3E:5C4A72:71975F:5DF22FAC[\r][\n]"
+DEBUG   2019-12-12 15:18:14,194 [main] org.apache.http.wire  - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+DEBUG   2019-12-12 15:18:14,194 [main] org.apache.http.wire  - http-outgoing-0 << "Content-Length: 679[\r][\n]"
+DEBUG   2019-12-12 15:18:14,194 [main] org.apache.http.wire  - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+DEBUG   2019-12-12 15:18:14,194 [main] org.apache.http.wire  - http-outgoing-0 << "Date: Thu, 12 Dec 2019 12:18:14 GMT[\r][\n]"
+DEBUG   2019-12-12 15:18:14,194 [main] org.apache.http.wire  - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+DEBUG   2019-12-12 15:18:14,194 [main] org.apache.http.wire  - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+DEBUG   2019-12-12 15:18:14,194 [main] org.apache.http.wire  - http-outgoing-0 << "X-Served-By: cache-ams21028-AMS[\r][\n]"
+DEBUG   2019-12-12 15:18:14,194 [main] org.apache.http.wire  - http-outgoing-0 << "X-Cache: HIT[\r][\n]"
+DEBUG   2019-12-12 15:18:14,195 [main] org.apache.http.wire  - http-outgoing-0 << "X-Cache-Hits: 1[\r][\n]"
+DEBUG   2019-12-12 15:18:14,195 [main] org.apache.http.wire  - http-outgoing-0 << "X-Timer: S1576153094.201068,VS0,VE0[\r][\n]"
+DEBUG   2019-12-12 15:18:14,195 [main] org.apache.http.wire  - http-outgoing-0 << "Vary: Authorization,Accept-Encoding[\r][\n]"
+DEBUG   2019-12-12 15:18:14,195 [main] org.apache.http.wire  - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+DEBUG   2019-12-12 15:18:14,195 [main] org.apache.http.wire  - http-outgoing-0 << "X-Fastly-Request-ID: 86090e1d3bd47102f4b161f1a24ad1ca82bb3610[\r][\n]"
+DEBUG   2019-12-12 15:18:14,195 [main] org.apache.http.wire  - http-outgoing-0 << "Expires: Thu, 12 Dec 2019 12:23:14 GMT[\r][\n]"
+DEBUG   2019-12-12 15:18:14,195 [main] org.apache.http.wire  - http-outgoing-0 << "Source-Age: 89[\r][\n]"
+DEBUG   2019-12-12 15:18:14,195 [main] org.apache.http.wire  - http-outgoing-0 << "[\r][\n]"
+DEBUG   2019-12-12 15:18:14,196 [main] org.apache.http.wire  - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0x95]K[0x8f][0xdb] [0x10][0x80][0xef][0xf9][0x15]H{i[0xf][0xc1][0xbc][0xc]v$_[0xfa]<U=[0xb4][0xf7][0xca][0x89]I[0x82][0xd6]1[0x11][0xf6]n[0xda][0xfe][0xfa]2<[0xbc]l[0xd4]J=~[0x9f]a[0x98]0[0xc3][0xe4][0x1]}?[0x9b][0x19][0x1d][0xcd][0xa8][0xd1][0xc1]NKo[0xa6][0x19]-g[0x8d][0x1e]'{[0x9b][0xd0][0xb3]v[0xb3][0xb1]^[0x1d][0xad]C[0x83]3[0xc0][0xe8][0xcd][0xde]L[0xbd][0xfb][0xf5][0xd6]o[0xb8]\[0xfb][0xc5][0xec][0xfd][0xde][0x9b]Y[0xce]a[0xdf][0xc1]:[0xa7][0xe7][0xab][0x9d][0x6]3[0x9d][0xd0][0xde][0xd9][0xdb][0xac]][0x8e][0xb3][0xd9]<[0xa0]wQ[0xed][0xd0]gkO~[0xe7][0xfb][0xb3][0xb3][0x17][0x8d][0xb6][0xe8]C[0x8][0xbf]C[0x87] [0xe2]a~[0xfd]7[0xfb][0xe4][0xe]z[0x87][0xce][0xcb]r[0xdd]UU[0xf9][0x15][0x7]0O[0x17]l[0xdd][0xa9][0x1a]|[0xc2][0xa3][0xed][0x87]y[0x13][0xd7][0xa8][0xb6]S-&[0x98][0xb7][0xa2][0xc6]\f[0xdb]t[0xaa][0x9][0x96][0x8]LI[0x9d][0xb5][0xea][0x94][0x2][0xdd][0xc8][0x1a][0xb][0x92][0xad][0xec][0x94][0xc][0x96][0xb4][0x98][0xb2]5F[0xdd][0xa9][0x1a][0xb4]R[0x4][0xd3][0x97][0xd5][0xa2]S"h[0xd6][0xe2]u-[0xef][0x14][0x7])[0x1b][0x8e]e[0x93]-[0xeb][0x18][0x16][0xeb][0x1a][0xfa][0x8a][0x8]PNL[0xb6]@"S[0x3][0xc4]2) [0x9a]I[0x2][0xe5]dd[0xed][0x89][0xe7][0xf3][0xa4][0x0]R[0x99]8P>OB.|=[0xf]r[0xe1][0xeb]y[0x90][0xb][0xe7][0xaf][0xea][0xf6][0xc5][0xfe]6[0xe3][0xd8][0xa3]O[0xc6][0xe9][0xa3][0xfd]YT[0xee][0xa4][0xf][0x8f][0xf6][0xaf][0x85][0x9b]}[0xe5]N[0xbe]E[0x9e][0xf6][0xd8]7Mu[0x89]![0xaa]bC[0xe5][0xf4][0xa8][0xfb]Y[0xcf][0x9b]c[0x8c][0xeb]8[0xc1][0xcc][0xdf][0xfe]*[0x1a][0x10]u![0x14][0x8]Q[0x8]y/[0xea]{!@[0xf0]B[0xf0]{[0xc1]@[0xb0]BP[0x10][0xb4][0x10][0xe4]N[0xd4][0xed][0xbd]h[0xee][0x85][0xba][0x17]!SR[0x88]:[0x8b][0xf2][0xaa][0xbf]^[0xb5][0xeb][0x8b][0xb][0xb6][0xc0][0xff]s[0xc1]a[0xe1]l[0x8f][0xcb][0xad]w:R~+[0xf7][0xd7][0x1d]>[0xfa][0x8b]zy[0x15][0x8d]JR[0x14]o[0x82]2[0x92],/[0xdf][0x4]g[0xc9][0xb2][0xf2]I[0x90][0xbc]6[0xb5]r[0x80][0xba]-!5r[0x84][0xd4][0xc7][0x11]R[0x1b]GH][0x1c]!5q[0x84][0xd4][0xc3][0x11]R[0xb]G[0xa0][0xb1]g#[0x90][0x2][0x4]d[0x90]3[0x16][0x90][0x1]O[0xe7][0x8][0xc8][0x80][0xb5][0x9]d[0x84]WMo[0xe][0xce][0xc2][0x85][0xa2][0x8f][0xc3][0xa9][0x9c]V[0x97]Y{[0xf1][0xcf][0x9a][0xc][0xfa]Y[0x8f][0x10][0x15]_r[0x84]P =m[0x9f][0xe6]ju[[0x8]R-[0xd6][0x8e]su[0xd3][0xfb]T#[0xb4][0xdd][0xae][0x81][0xf4][0x84]o[0xe6][0xd1]\[0xf5]`[0xfa]0[0xee][0x80][0xaa]5[0xad][0x1f][0x90][0xd6][0x6][0xa2][0xac]c[0x8f]BW[0x7][0x93]F[0x1e][0x83]jF[0x93][0xa6][0x1d][0xe3][0xab]I[0x93][0x8e]6[0xeb][0xae]4[0xe4](o}c[0x6]%Dwuz[0xeb][0xff]"[0x96]~[0x1c][0xf5][0x10]%[0xeb]$[0xa6][0x8a][0xfa][0x99][0x11][0x90]v[0xbe]Y$k[0xdb][0x88][0xa4][0xf3]c[0xb6]&[0x92][0x7][0xe4]M[0xc7][0xfd][0xc4][0xe4]mD[0x6][0xe5][0xf5]C[0xb8][0x91][0x11]IG=2_[0xfd]?[0xb8][0x1][0xf1][0xe4][0x98][0x6][0x0][0x0]"
+DEBUG   2019-12-12 15:18:14,202 [main] org.apache.http.headers  - http-outgoing-0 << HTTP/1.1 200 OK
+DEBUG   2019-12-12 15:18:14,202 [main] org.apache.http.headers  - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+DEBUG   2019-12-12 15:18:14,202 [main] org.apache.http.headers  - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+DEBUG   2019-12-12 15:18:14,202 [main] org.apache.http.headers  - http-outgoing-0 << X-Content-Type-Options: nosniff
+DEBUG   2019-12-12 15:18:14,202 [main] org.apache.http.headers  - http-outgoing-0 << X-Frame-Options: deny
+DEBUG   2019-12-12 15:18:14,202 [main] org.apache.http.headers  - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+DEBUG   2019-12-12 15:18:14,202 [main] org.apache.http.headers  - http-outgoing-0 << ETag: W/"cc220cf00395b3223ce06a330d6d42326df4279d5315b997f161bb143dceadd1"
+DEBUG   2019-12-12 15:18:14,202 [main] org.apache.http.headers  - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+DEBUG   2019-12-12 15:18:14,202 [main] org.apache.http.headers  - http-outgoing-0 << Cache-Control: max-age=300
+DEBUG   2019-12-12 15:18:14,202 [main] org.apache.http.headers  - http-outgoing-0 << X-Geo-Block-List:
+DEBUG   2019-12-12 15:18:14,202 [main] org.apache.http.headers  - http-outgoing-0 << X-GitHub-Request-Id: 1844:3B3E:5C4A72:71975F:5DF22FAC
+DEBUG   2019-12-12 15:18:14,202 [main] org.apache.http.headers  - http-outgoing-0 << Content-Encoding: gzip
+DEBUG   2019-12-12 15:18:14,202 [main] org.apache.http.headers  - http-outgoing-0 << Content-Length: 679
+DEBUG   2019-12-12 15:18:14,203 [main] org.apache.http.headers  - http-outgoing-0 << Accept-Ranges: bytes
+DEBUG   2019-12-12 15:18:14,203 [main] org.apache.http.headers  - http-outgoing-0 << Date: Thu, 12 Dec 2019 12:18:14 GMT
+DEBUG   2019-12-12 15:18:14,203 [main] org.apache.http.headers  - http-outgoing-0 << Via: 1.1 varnish
+DEBUG   2019-12-12 15:18:14,203 [main] org.apache.http.headers  - http-outgoing-0 << Connection: keep-alive
+DEBUG   2019-12-12 15:18:14,203 [main] org.apache.http.headers  - http-outgoing-0 << X-Served-By: cache-ams21028-AMS
+DEBUG   2019-12-12 15:18:14,203 [main] org.apache.http.headers  - http-outgoing-0 << X-Cache: HIT
+DEBUG   2019-12-12 15:18:14,203 [main] org.apache.http.headers  - http-outgoing-0 << X-Cache-Hits: 1
+DEBUG   2019-12-12 15:18:14,203 [main] org.apache.http.headers  - http-outgoing-0 << X-Timer: S1576153094.201068,VS0,VE0
+DEBUG   2019-12-12 15:18:14,203 [main] org.apache.http.headers  - http-outgoing-0 << Vary: Authorization,Accept-Encoding
+DEBUG   2019-12-12 15:18:14,203 [main] org.apache.http.headers  - http-outgoing-0 << Access-Control-Allow-Origin: *
+DEBUG   2019-12-12 15:18:14,203 [main] org.apache.http.headers  - http-outgoing-0 << X-Fastly-Request-ID: 86090e1d3bd47102f4b161f1a24ad1ca82bb3610
+DEBUG   2019-12-12 15:18:14,203 [main] org.apache.http.headers  - http-outgoing-0 << Expires: Thu, 12 Dec 2019 12:23:14 GMT
+DEBUG   2019-12-12 15:18:14,203 [main] org.apache.http.headers  - http-outgoing-0 << Source-Age: 89
+DEBUG   2019-12-12 15:18:14,209 [main] org.apache.http.impl.execchain.MainClientExec  - Connection can be kept alive indefinitely
+DEBUG   2019-12-12 15:18:14,218 [main] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection [id: 0][route: {s}->https://raw.githubusercontent.com:443] can be kept alive indefinitely
+DEBUG   2019-12-12 15:18:14,219 [main] org.apache.http.impl.conn.DefaultManagedHttpClientConnection  - http-outgoing-0: set socket timeout to 0
+DEBUG   2019-12-12 15:18:14,219 [main] org.apache.http.impl.conn.PoolingHttpClientConnectionManager  - Connection released: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+INFO    2019-12-12 15:18:19,617 [main] com.aurelius.base.Page  - Chrome launched
+INFO    2019-12-12 15:18:33,975 [main] com.aurelius.base.Page  - Navigated to http://zoho.com
+INFO    2019-12-12 15:18:38,094 [main] com.aurelius.base.Page  - LOGINTEST

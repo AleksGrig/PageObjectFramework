@@ -1,0 +1,1 @@
+INFO    2019-12-14 13:29:50,136 [main] com.automation.base.Page  - CALENDARTEST

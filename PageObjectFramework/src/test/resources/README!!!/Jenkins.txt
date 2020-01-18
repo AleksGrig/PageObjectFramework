@@ -1,0 +1,12 @@
+# Launching command for jenkins, start cmd in the directory with jenkins.war 
+# First parameter enables seeing Extent Reports as html with html publisher plugin
+java -Dhudson.model.DirectoryBrowserSupport.CSP="" -jar jenkins.war
+
+Find it at localhost:8080
+
+# Jenkins credentials
+user: aurelius
+password: Selenium@123
+
+# Shutting down jenkins
+Ctrl + c

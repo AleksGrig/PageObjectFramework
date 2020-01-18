@@ -1,0 +1,5 @@
+INFO    2019-12-13 11:02:39,611 [main] com.aurelius.base.Page  - Config file loaded
+INFO    2019-12-13 11:02:39,614 [main] com.aurelius.base.Page  - OR file loaded
+INFO    2019-12-13 11:02:47,935 [main] com.aurelius.base.Page  - Firefox launched
+INFO    2019-12-13 11:02:50,765 [main] com.aurelius.base.Page  - Navigated to http://zoho.com
+INFO    2019-12-13 11:02:51,480 [main] com.aurelius.base.Page  - LOGINTEST
